@@ -15,10 +15,13 @@ void rearrange(int arr[], int n)
         }
     }
 
+    // for(int k=0;k<n;k++)
+    //   printf("%d", arr[k]);
+
 
     int pos = i+1, neg=0;
 
-    while (pos < n && neg < pos && arr[neg] < 0)
+    while (pos < n && neg < pos && arr[neg] == 0)
        {
            swap(&arr[neg], &arr[pos]);
            pos++;

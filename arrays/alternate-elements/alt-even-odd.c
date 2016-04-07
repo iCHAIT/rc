@@ -18,7 +18,7 @@ void rearrange(int arr[], int n)
 
     int pos = i+1, neg=0;
 
-    while (pos < n && neg < pos && arr[neg] < 0)
+    while (pos < n && neg < pos && arr[neg] % 2 != 0)
        {
            swap(&arr[neg], &arr[pos]);
            pos++;
