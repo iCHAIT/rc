@@ -8,7 +8,7 @@ int main()
 	int arr[] = {3,4,1,2,6,5};
 
 	int size = (sizeof(arr))/(sizeof(arr[0]));
-	int start=0, end = size-1,i,temp=0;
+	int start=0, end = size-1,i,temp=0	;
 
 	printf("Input Array is");
 
