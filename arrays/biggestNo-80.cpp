@@ -1,8 +1,10 @@
-# include <iostream>
-# include <string>
-# include <vector>
-# include <algorithm>
+// Given an array of numbers, program to arrange the numbers to form the
+// largest number
 
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 int myCompare(string X, string Y)
